@@ -539,16 +539,16 @@ body{
    left:  -115px;
    display: none;
  }
- @media(max-width:575px){
-  .footer .social .top::before{
-    display: none;
-  }
- }
+
  .footer .social .top:hover::before{
    display: block;
    color: var(--main-color);
  }
- 
+ @media(max-width:575px){
+  .footer .social .top:hover::before{
+    display: none;
+  }
+}
 
  .footer .social .top i {
    font-size: 20px;
